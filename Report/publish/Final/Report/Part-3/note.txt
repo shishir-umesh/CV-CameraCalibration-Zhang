@@ -1,0 +1,18 @@
+We find the resolution of the clipart augmented on the chessboard plane to be patchy. One of the main reason is that when we set our world coordinates of the grid corners as
+[0,0]
+[0,210]
+[270,210]
+[270,0]
+We are setting the resolution of our original chessboard pattern to be 1 pixel per millimetre. Which is a very low resolution when compared to our chessboard pattern images. This leads to multiple points being projected to the same pixel point on the image and hence causing it to be patchy.
+
+This can be improved on by just changing the grid corner, 
+[0,0]
+[0,420]
+[540,420]
+[540,0]
+
+This can be seen in the augmented png image — augment2d-1.png
+
+------------------------------------------------------------------------------------------
+
+For the 3D wireframe augmentation, we had to change R = [r1,r2,r3] into R = [R1,R3,R2]. 

@@ -1,0 +1,5 @@
+Question 2:
+
+When we have n>=3 we have a unique solution b fro Vb = 0 defined upto a scale factor. But when we have only two images, i.e. n=2, we will have to impose a skewness contraint where gamma = 0, that is, [0,1,0,0,0,0]b = 0, which is added as an additional equation.
+
+But if we have n=1, we can only solbe two camera intrinsic parameters alpha and beta, assuming u_0 and v_0 are known and gamma = 0.
